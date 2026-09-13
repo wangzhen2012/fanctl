@@ -1,0 +1,4 @@
+debug-smc
+debug-smc[0-9]*
+fanctl-smc
+*.log
