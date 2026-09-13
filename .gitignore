@@ -2,3 +2,5 @@ debug-smc
 debug-smc[0-9]*
 fanctl-smc
 *.log
+__pycache__/
+*.pyc
