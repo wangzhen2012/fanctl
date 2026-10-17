@@ -18,10 +18,10 @@ import rumps
 import objc
 import AppKit
 import Foundation
-from AppKit import NSStringFromRect
 
 APP_NAME = "fanctl"
-TOOL = os.path.expanduser("~/Projects/fanctl/fanctl-smc")
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+TOOL = os.environ.get("FANCTL_TOOL", os.path.join(PROJECT_DIR, "fanctl-smc"))
 CONFIG_DIR = os.path.expanduser("~/Library/Application Support/fanctl")
 CONFIG_PATH = os.path.join(CONFIG_DIR, "config.json")
 

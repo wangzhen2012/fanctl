@@ -4,3 +4,9 @@ fanctl-smc
 *.log
 __pycache__/
 *.pyc
+.DS_Store
+*.dSYM/
+build/
+dist/
+*.json
+!.github/**/*.json
